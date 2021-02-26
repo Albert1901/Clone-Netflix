@@ -1,0 +1,263 @@
+:root{
+     --vermelho:#E50914;
+     --preto:#141414;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .logo{
+    margin-left:5px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    margin-top: 5px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+    cursor: pointer;
+  
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+/*Elementos da Série Principal*/
+/**/
+.filme-capa {
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('./tlk.jpg');
+    
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+.filme-capa .descricao{
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+
+    padding: 20px 30px;
+    margin-right: 15px;
+    font-size: 10px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    color:var(--preto);
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.filme-capa .container{
+    width: 70%;
+
+}
+
+.box-filmes{
+    height: 70%;
+    width: 70%;
+    display: block;
+    cursor: pointer;
+
+}
+
+.carrosel-filmes{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.classe-filmes{
+    padding: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+
+.rodape{
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)
+}
+
+.final i{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    
+    padding: 0px 5px 0px 80px;
+}
+
+.final a {
+    text-decoration: none;
+    
+    color: #ffffff;
+}
+
+
+
+
+.final a:hover{
+    zoom: 110%;
+}
+
+
+/* Overlay Assistir*/
+
+#assistir {
+    position: fixed;
+    display: none;
+    width: 60%;
+    height: 60%;
+    top: 25%;
+    left: 20%;
+    background-color: var(--preto); 
+    z-index: 2;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  
+.botao1 {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 30px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+
+/* Overlay Saiba mais*/
+
+#info {
+    position: fixed;
+    display: none;
+    width: 50%;
+    height: 60%;
+    top: 35%;
+    left: 20%;
+    background-color: var(--preto); 
+    z-index: 2;
+    transition: .5s ease;
+  }
+
+  
+.botao2 {
+    background-color:var (var(--preto));
+    border: none;
+    color: #fff;
+    
+    padding: 5px;
+    margin-left: 93%;
+    font-size: 30px;
+    
+    
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.foto-info{
+    width: 30%;
+    height: 85%;
+    padding: 15px;
+
+}
+
+.titulo-info{
+    margin-top: -25px;
+    text-align: center;
+    
+}
+
+.botao-overlay {
+    border: none;
+    border-radius: 3px;
+
+    width: 30%;
+    height: 15%;
+
+    color:var(--preto);
+    background: #ffffff;
+
+    cursor: pointer;
+
+    margin-top: 100px;
+    padding: 10px;
+
+}
+
+.botoes-overlay {
+    margin-left: 300px;
+}
+
+ .descricao-overlay {
+    margin-top: -250px;
+    margin-left: 200px;
+}
