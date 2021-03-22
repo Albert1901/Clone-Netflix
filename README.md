@@ -1,2 +1,2 @@
 # Clone-Netflix
-Copia da interface da netflix apenas para pratica, das seguintes linguagens: HTML, CSS e JavaScript.
+Copia da interface da netflix utilizando as seguintes linguagens: HTML, CSS e JavaScript.
